@@ -104,6 +104,12 @@
     color: whitesmoke;
 }
 
+.main p{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(14, 227, 235);
+}
+
 
 
 /*-------------------------- CSS For footer Starts Here -------------------------- */
