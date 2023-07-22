@@ -1,0 +1,185 @@
+/*-------------------------- CSS For Navbar Starts Here -------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: red;
+    font-size: 2rem;
+
+}
+
+.nav-link {
+    color: rgb(10, 10, 94);
+   
+}
+
+.nav-link:hover {
+    color: red;
+    border-bottom: 3px solid red;
+    transition: all 0.2s;
+}
+
+.nav-item {
+    color: rgb(7, 7, 78);
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.btn0 {
+    height: 52px;
+    width: 130px;
+
+    text-align: center;
+    padding-top: 12px;
+
+
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(248, 83, 83);
+}
+
+.btn0:hover {
+    color: white;
+    text-decoration: none;
+
+    background: rgb(214, 11, 11);
+    transition: all 0.4s;
+}
+
+.btn1 {
+    height: 52px;
+    width: 130px;
+    text-align: center;
+    padding-top: 12px;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    transition: all 0.4s;
+    outline: none;
+    border: 2px solid rgb(248, 20, 20);
+}
+
+.btn1:hover {
+    background: rgb(214, 11, 11);
+    transition: all 0.4s;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*-------------------------- CSS For Navbar Ends Here -------------------------- */
+
+.Register {
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 7);
+}
+
+.Register h1,
+p {
+    text-align: center;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.submitBtn {
+    background-color: teal;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.submitBtn:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------- CSS For footer Starts Here -------------------------- */
+
+.footer {
+    background-color: #121626;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+    color: #69696b;
+}
+
+.link {
+    color: #69696b;
+    transition: all 0.4s;
+}
+
+.link:hover {
+    color: #ff2962;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.footer input {
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.footer button {
+    height: 45px;
+    width: 20%;
+    padding-left: -12px;
+    border: none;
+    outline: none;
+    border-top: 1px solid#ff2962;
+    background: #ff2962;
+    color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*-------------------------- CSS For footer Ends Here -------------------------- */
