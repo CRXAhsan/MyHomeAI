@@ -6,26 +6,27 @@
     box-sizing: border-box;
 }
 
+
 .navbar-brand {
-    color: red;
+    color: rgb(168, 2, 184);
     font-size: 2rem;
 
 }
 
 .nav-link {
-    color: rgb(10, 10, 94);
+    color: rgb(168, 2, 184);
    
 }
 
 .nav-link:hover {
-    color: red;
-    border-bottom: 3px solid red;
+    color: rgb(168, 2, 184);
+    border-bottom: 3px solid rgb(168, 2, 184);
     transition: all 0.2s;
 }
 
 .nav-item {
-    color: rgb(7, 7, 78);
-    font-weight: 500;
+    color:rgb(168, 2, 184);
+        font-weight: 500;
     padding-left: 35px;
 }
 
@@ -42,14 +43,14 @@
     color: white;
     cursor: pointer;
     transition: all 0.4s;
-    background-color: rgb(248, 83, 83);
+    background-color: rgba(185, 2, 202, 0.644);
 }
 
 .btn0:hover {
     color: white;
     text-decoration: none;
 
-    background: rgb(214, 11, 11);
+    background: rgb(168, 2, 184);
     transition: all 0.4s;
 }
 
@@ -59,23 +60,24 @@
     text-align: center;
     padding-top: 12px;
     background-color: transparent;
-    color: red;
+    color: rgb(168, 2, 184);
     cursor: pointer;
     transition: all 0.4s;
     outline: none;
-    border: 2px solid rgb(248, 20, 20);
+    border: 2px solid rgb(168, 2, 184);
+    ;
 }
 
 .btn1:hover {
-    background: rgb(214, 11, 11);
+    background: rgb(168, 2, 184);
     transition: all 0.4s;
     color: white;
     text-decoration: none;
 }
 
 #home{
-    color: red;
-    border-bottom: 3px solid red;
+    color: rgb(168, 2, 184);
+    border-bottom: 3px solid rgb(168, 2, 184);
 }
 
 /*-------------------------- CSS For Navbar Ends Here -------------------------- */
@@ -92,8 +94,10 @@
 
 /* main */
 .main {
-    background: url("../Images/backgroundpic.jpg")no-repeat;
-    background-size: cover;
+    background: rgb(0,236,255);
+    background: radial-gradient(circle, rgba(0,236,255,1) 13%, rgba(128,125,250,1) 40%, rgba(144,109,249,1) 56%, rgba(255,0,245,1) 75%, rgba(209,0,255,1) 93%);
+    /* background: url("../Images/backgroundpic.jpg")no-repeat;
+    background-size: cover; */
     width: 100%;
     min-height: 95vh;
 }
@@ -106,8 +110,8 @@
 
 .main p{
     font-size: 1.5rem;
-    font-weight: 200;
-    color: rgb(14, 227, 235);
+    font-weight: 300;
+    color: rgb(252, 252, 252);
 }
 
 
@@ -115,13 +119,13 @@
 /*-------------------------- CSS For footer Starts Here -------------------------- */
 
 .footer {
-    background-color: #121626;
-    color: white;
+    background-color: #ecd8d8;
+    color: rgb(168, 2, 184);
 }
 
 .footer p {
     margin: 0;
-    color: #69696b;
+    color: #c41f9a;
 }
 
 .link {
