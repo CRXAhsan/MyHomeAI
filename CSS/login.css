@@ -7,24 +7,24 @@
 }
 
 .navbar-brand {
-    color: red;
+    color: rgb(255, 196, 0);
     font-size: 2rem;
 
 }
 
 .nav-link {
-    color: rgb(10, 10, 94);
+    color: rgb(255, 196, 0);
    
 }
 
 .nav-link:hover {
-    color: red;
-    border-bottom: 3px solid red;
+    color: rgb(255, 196, 0);
+    border-bottom: 3px solid rgb(255, 196, 0);
     transition: all 0.2s;
 }
 
 .nav-item {
-    color: rgb(7, 7, 78);
+    color: rgb(255, 196, 0);
     font-weight: 500;
     padding-left: 35px;
 }
@@ -42,14 +42,14 @@
     color: white;
     cursor: pointer;
     transition: all 0.4s;
-    background-color: rgb(248, 83, 83);
+    background-color: rgb(255, 196, 0);
 }
 
 .btn0:hover {
     color: white;
     text-decoration: none;
 
-    background: rgb(214, 11, 11);
+    background: rgb(255, 196, 0);
     transition: all 0.4s;
 }
 
@@ -59,15 +59,15 @@
     text-align: center;
     padding-top: 12px;
     background-color: transparent;
-    color: red;
+    color: rgb(255, 196, 0);
     cursor: pointer;
     transition: all 0.4s;
     outline: none;
-    border: 2px solid rgb(248, 20, 20);
+    border: 2px solid rgb(255, 196, 0);
 }
 
 .btn1:hover {
-    background: rgb(214, 11, 11);
+    background: rgb(255, 196, 0);
     transition: all 0.4s;
     color: white;
     text-decoration: none;
@@ -77,17 +77,24 @@
 
 /*-------------------------- CSS For Navbar Ends Here -------------------------- */
 
+.loginPage{
+    background: rgb(110,152,0);
+background: radial-gradient(circle, rgba(110,152,0,1) 0%, rgba(0,152,145,1) 52%, rgba(110,152,0,1) 100%);
+}
+
 .Register {
     margin: auto;
     width: 50%;
     padding: 16px;
-    background-color: white;
+    /* background-color: white; */
+    background-color: #9bcad3;
     box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 7);
 }
 
 .Register h1,
 p {
     text-align: center;
+    color: #5e9406;
 }
 
 input[type='text'],
@@ -138,13 +145,13 @@ input[type='email']:focus {
 /*-------------------------- CSS For footer Starts Here -------------------------- */
 
 .footer {
-    background-color: #121626;
+    background-color: #96d69b;
     color: white;
 }
 
 .footer p {
     margin: 0;
-    color: #69696b;
+    color: #057a7a;
 }
 
 .link {
@@ -174,8 +181,8 @@ input[type='email']:focus {
     padding-left: -12px;
     border: none;
     outline: none;
-    border-top: 1px solid#ff2962;
-    background: #ff2962;
+    border-top: 1px solid#00505a;
+    background: #00505a;
     color: white;
     margin-top: 40px;
     border-radius: 5px;

@@ -7,24 +7,24 @@
 }
 
 .navbar-brand {
-    color: red;
+    color: rgb(185, 12, 190);
     font-size: 2rem;
 
 }
 
 .nav-link {
-    color: rgb(10, 10, 94);
+    color: rgb(185, 12, 190);
    
 }
 
 .nav-link:hover {
-    color: red;
-    border-bottom: 3px solid red;
+    color: rgb(185, 12, 190);
+    border-bottom: 3px solid rgb(185, 12, 190);
     transition: all 0.2s;
 }
 
 .nav-item {
-    color: rgb(7, 7, 78);
+    color: rgb(185, 12, 190);
     font-weight: 500;
     padding-left: 35px;
 }
@@ -42,14 +42,14 @@
     color: white;
     cursor: pointer;
     transition: all 0.4s;
-    background-color: rgb(248, 83, 83);
+    background-color: rgb(185, 12, 190);
 }
 
 .btn0:hover {
     color: white;
     text-decoration: none;
 
-    background: rgb(214, 11, 11);
+    background: rgb(185, 12, 190);
     transition: all 0.4s;
 }
 
@@ -59,15 +59,15 @@
     text-align: center;
     padding-top: 12px;
     background-color: transparent;
-    color: red;
+    color: rgb(185, 12, 190);
     cursor: pointer;
     transition: all 0.4s;
     outline: none;
-    border: 2px solid rgb(248, 20, 20);
+    border: 2px solid rgb(185, 12, 190);
 }
 
 .btn1:hover {
-    background: rgb(214, 11, 11);
+    background: rgb(185, 12, 190);
     transition: all 0.4s;
     color: white;
     text-decoration: none;
@@ -77,16 +77,25 @@
 
 /*-------------------------- CSS For Navbar Ends Here -------------------------- */
 
+.register{
+    background: rgb(130,17,120);
+background: radial-gradient(circle, rgba(130,17,120,1) 13%, rgba(163,162,154,1) 48%, rgba(130,17,120,1) 100%);
+}
+
+
 .Register {
     margin: auto;
     width: 50%;
     padding: 16px;
-    background-color: white;
+    /* background-color: white; */
+    background: rgb(130,17,120);
+background: radial-gradient(circle, rgba(130,17,120,1) 2%, rgba(163,162,154,1) 51%, rgba(157,135,148,1) 78%, rgba(130,17,120,1) 100%);
     box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 7);
 }
 
 .Register h1,
 p {
+    color:rgb(51, 50, 50);
     text-align: center;
 }
 
@@ -98,7 +107,7 @@ input[type='email'] {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: whitesmoke;
+    background: rgb(245, 245, 245);
 }
 
 input[type='text']:focus,
@@ -109,8 +118,8 @@ input[type='email']:focus {
 }
 
 .submitBtn {
-    background-color: teal;
-    color: white;
+    background-color: rgb(168, 35, 139);
+    color: rgb(255, 255, 255);
     padding: 16px;
     border: none;
     cursor: pointer;
@@ -138,22 +147,22 @@ input[type='email']:focus {
 /*-------------------------- CSS For footer Starts Here -------------------------- */
 
 .footer {
-    background-color: #121626;
+    background-color: #c29bbb;
     color: white;
 }
 
 .footer p {
     margin: 0;
-    color: #69696b;
+    color: #75006c;
 }
 
 .link {
-    color: #69696b;
+    color: #d4007c;
     transition: all 0.4s;
 }
 
 .link:hover {
-    color: #ff2962;
+    color: #88005b;
     padding-left: 10px;
     transition: all 0.4s;
     cursor: pointer;
@@ -174,8 +183,8 @@ input[type='email']:focus {
     padding-left: -12px;
     border: none;
     outline: none;
-    border-top: 1px solid#ff2962;
-    background: #ff2962;
+    border-top: 1px solid#e600bf;
+    background: #ee09bc;
     color: white;
     margin-top: 40px;
     border-radius: 5px;
